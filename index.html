@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <div class="navholder">
+                <div class="logo">
+                    <img src="images/logo2.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#warriors">Warriors</a></li>
+                        <li><a href="#joinus" class="joinbtn">Join us</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="mobile">
+                    <input type="checkbox" id="clicked" hidden="hidden">
+                    <label for="clicked">
+                        <span class="joinbtn" id="open">Menu</span>
+                        <span class="joinbtn" id="close">Close</span>
+                    </label>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#warriors">Warriors</a></li>
+                        <li><a href="#connect">Connect with us</a></li>
+                        <li><a href="#joinus">Join us</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+
+        <div class="hero" id="home">
+            <div class="herotext">
+                <h1>welcome to the <span style="color: #dd5242; text-shadow: 2px 0 10px #000;">warrior's</span> territory</h1>
+            </div>
+        </div>
+
+        <div class="body-content" id="about">
+            <h2 class="about">About Warrior Territory</h2>
+            <div class="line"></div>
+            <p>Warrior territory is any lorem ipsum dolor amit. You can use text generator to generate text for test purposes Warrior territory is any lorem ipsum dolor amit. You can use text generator to generate text for test purposesWarrior territory is any lorem ipsum dolor amit. You can use text generator to generate text for test purposes. use text generator to generate text for test purposesuse text generator to generate text for test purposes</p>
+            
+            <div class="warriors" id="warriors">
+                <div class="warrior1">
+                    <div class="wlevel">Gold Warrior</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="warrior2">
+                    <div class="wlevel">Silver Warrior</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="warrior3">
+                    <div class="wlevel">Bronze Warrior</div>
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div><!-- Body content div closes here -->
+
+        <div class="joinus" id="joinus">
+            <div class="joinarea">
+                <h3 class="question">Want to be a Warrior? <br><span style="color: #ccc; font-size: 28px;">Join us Now!</span></h3>
+                <div class="data">
+                    <input type="email" placeholder="Enter Your Email" class="youremail">
+                    <button value="submit" class="button"><a href="#" style="color: #fff;">Join Us</a></button>
+                </div>    
+            </div>    
+        </div>
+
+        <footer>
+            <div class="copyright">Faithtuts.com &copy; All Rights Reserved.</div>
+            <div class="socials">
+                <img src="images/twitter.png" alt="twitter">
+                <img src="images/instagram.png" alt="instagram">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
