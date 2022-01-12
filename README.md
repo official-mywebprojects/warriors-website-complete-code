@@ -7,7 +7,7 @@ Mobile Preview             |  Tab / Desktop Preview
 
 
 
+https://user-images.githubusercontent.com/52779676/149117598-e1875032-67cc-45ca-be8e-330673d1df45.mp4
 
 
-![warrior3](https://user-images.githubusercontent.com/52779676/147836641-1231f023-e3bd-4c26-b9c2-d6fd4a4a60ed.png)
 
